@@ -8,18 +8,18 @@ The application demonstrates the back-end of an e-commerce site. Using Sequelize
 
 To run the application, VS Code and Gitbash/Command line are required. Follow the steps below to begin installation:
 
-- git clone https://github.com/tshen28/e-commerce-back-end 
-- Run npm i to install dependencies
+- `git clone https://github.com/tshen28/e-commerce-back-end`
+- Run `npm i` to install dependencies
 - Add .env file to use environment variables for sensitive information
-    - DB_NAME = 'ecommerce_db'
-    - DB_USER = 'your username'
-    - DB_PASSWORD = 'your password'
+    - `DB_NAME = 'ecommerce_db'`
+    - `DB_USER = 'your username'`
+    - `DB_PASSWORD = 'your password'`
 - Connect to MySQL
-    - mysql -u root -p 
-    - SOURCE schema.sql;
+    - `mysql -u root -p`
+    - `SOURCE schema.sql;`
 - Open integrated terminal in server.js
-    - npm run seed
-    - npm run watch
+    - `npm run seed`
+    - `npm run watch`
 - Test CRUD routes on http://localhost:3001 in Insomnia
 
 ## User Story
@@ -49,4 +49,6 @@ THEN I am able to successfully create, update, and delete data in my database
 ## Links
 
 Github: https://github.com/tshen28/e-commerce-back-end
+
+
 Demo video: https://drive.google.com/file/d/1-EMuPy_jarIVe-svmmhxv7Pl2aCpfCRt/view?usp=sharing
